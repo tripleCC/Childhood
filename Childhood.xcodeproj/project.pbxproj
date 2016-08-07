@@ -314,6 +314,21 @@
 		D635C45E1D56E330008984D9 /* 1.line_phase.nes in Resources */ = {isa = PBXBuildFile; fileRef = D635C3301D56E330008984D9 /* 1.line_phase.nes */; };
 		D635C45F1D56E330008984D9 /* 2.frame_phase.nes in Resources */ = {isa = PBXBuildFile; fileRef = D635C3311D56E330008984D9 /* 2.frame_phase.nes */; };
 		D635C4601D56E330008984D9 /* 3.special_frame_phase.nes in Resources */ = {isa = PBXBuildFile; fileRef = D635C3321D56E330008984D9 /* 3.special_frame_phase.nes */; };
+		D635C4C11D56EAB6008984D9 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4A71D56EAB6008984D9 /* adler32.c */; };
+		D635C4C21D56EAB6008984D9 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4A81D56EAB6008984D9 /* compress.c */; };
+		D635C4C31D56EAB6008984D9 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4A91D56EAB6008984D9 /* crc32.c */; };
+		D635C4C41D56EAB6008984D9 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4AB1D56EAB6008984D9 /* deflate.c */; };
+		D635C4C51D56EAB6008984D9 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4AD1D56EAB6008984D9 /* gzclose.c */; };
+		D635C4C61D56EAB6008984D9 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4AF1D56EAB6008984D9 /* gzlib.c */; };
+		D635C4C71D56EAB6008984D9 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4B01D56EAB6008984D9 /* gzread.c */; };
+		D635C4C81D56EAB6008984D9 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4B11D56EAB6008984D9 /* gzwrite.c */; };
+		D635C4C91D56EAB6008984D9 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4B21D56EAB6008984D9 /* infback.c */; };
+		D635C4CA1D56EAB6008984D9 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4B31D56EAB6008984D9 /* inffast.c */; };
+		D635C4CB1D56EAB6008984D9 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4B61D56EAB6008984D9 /* inflate.c */; };
+		D635C4CC1D56EAB6008984D9 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4B81D56EAB6008984D9 /* inftrees.c */; };
+		D635C4CD1D56EAB6008984D9 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4BA1D56EAB6008984D9 /* trees.c */; };
+		D635C4CE1D56EAB6008984D9 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4BC1D56EAB6008984D9 /* uncompr.c */; };
+		D635C4CF1D56EAB6008984D9 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4BF1D56EAB6008984D9 /* zutil.c */; };
 		F04B889266E945908C46B776 /* Pods_Childhood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FCA80CAADAE16BE6591A4F /* Pods_Childhood.framework */; };
 /* End PBXBuildFile section */
 
@@ -958,6 +973,32 @@
 		D635C3301D56E330008984D9 /* 1.line_phase.nes */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.line_phase.nes; sourceTree = "<group>"; };
 		D635C3311D56E330008984D9 /* 2.frame_phase.nes */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.frame_phase.nes; sourceTree = "<group>"; };
 		D635C3321D56E330008984D9 /* 3.special_frame_phase.nes */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.special_frame_phase.nes; sourceTree = "<group>"; };
+		D635C4A71D56EAB6008984D9 /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
+		D635C4A81D56EAB6008984D9 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		D635C4A91D56EAB6008984D9 /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
+		D635C4AA1D56EAB6008984D9 /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc32.h; sourceTree = "<group>"; };
+		D635C4AB1D56EAB6008984D9 /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
+		D635C4AC1D56EAB6008984D9 /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deflate.h; sourceTree = "<group>"; };
+		D635C4AD1D56EAB6008984D9 /* gzclose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzclose.c; sourceTree = "<group>"; };
+		D635C4AE1D56EAB6008984D9 /* gzguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gzguts.h; sourceTree = "<group>"; };
+		D635C4AF1D56EAB6008984D9 /* gzlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzlib.c; sourceTree = "<group>"; };
+		D635C4B01D56EAB6008984D9 /* gzread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzread.c; sourceTree = "<group>"; };
+		D635C4B11D56EAB6008984D9 /* gzwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzwrite.c; sourceTree = "<group>"; };
+		D635C4B21D56EAB6008984D9 /* infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = infback.c; sourceTree = "<group>"; };
+		D635C4B31D56EAB6008984D9 /* inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inffast.c; sourceTree = "<group>"; };
+		D635C4B41D56EAB6008984D9 /* inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffast.h; sourceTree = "<group>"; };
+		D635C4B51D56EAB6008984D9 /* inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffixed.h; sourceTree = "<group>"; };
+		D635C4B61D56EAB6008984D9 /* inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inflate.c; sourceTree = "<group>"; };
+		D635C4B71D56EAB6008984D9 /* inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inflate.h; sourceTree = "<group>"; };
+		D635C4B81D56EAB6008984D9 /* inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inftrees.c; sourceTree = "<group>"; };
+		D635C4B91D56EAB6008984D9 /* inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inftrees.h; sourceTree = "<group>"; };
+		D635C4BA1D56EAB6008984D9 /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
+		D635C4BB1D56EAB6008984D9 /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
+		D635C4BC1D56EAB6008984D9 /* uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uncompr.c; sourceTree = "<group>"; };
+		D635C4BD1D56EAB6008984D9 /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		D635C4BE1D56EAB6008984D9 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		D635C4BF1D56EAB6008984D9 /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
+		D635C4C01D56EAB6008984D9 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
 		D82D029375CB707F4AFEFEE6 /* Pods-Childhood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Childhood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Childhood/Pods-Childhood.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1035,6 +1076,7 @@
 		D635C0B51D56E32E008984D9 /* Nestopia */ = {
 			isa = PBXGroup;
 			children = (
+				D635C4A61D56EAB6008984D9 /* zlib */,
 				D635C0B61D56E32E008984D9 /* core */,
 				D635C3221D56E330008984D9 /* nes_ntsc */,
 			);
@@ -1732,6 +1774,39 @@
 			path = tests;
 			sourceTree = "<group>";
 		};
+		D635C4A61D56EAB6008984D9 /* zlib */ = {
+			isa = PBXGroup;
+			children = (
+				D635C4A71D56EAB6008984D9 /* adler32.c */,
+				D635C4A81D56EAB6008984D9 /* compress.c */,
+				D635C4A91D56EAB6008984D9 /* crc32.c */,
+				D635C4AA1D56EAB6008984D9 /* crc32.h */,
+				D635C4AB1D56EAB6008984D9 /* deflate.c */,
+				D635C4AC1D56EAB6008984D9 /* deflate.h */,
+				D635C4AD1D56EAB6008984D9 /* gzclose.c */,
+				D635C4AE1D56EAB6008984D9 /* gzguts.h */,
+				D635C4AF1D56EAB6008984D9 /* gzlib.c */,
+				D635C4B01D56EAB6008984D9 /* gzread.c */,
+				D635C4B11D56EAB6008984D9 /* gzwrite.c */,
+				D635C4B21D56EAB6008984D9 /* infback.c */,
+				D635C4B31D56EAB6008984D9 /* inffast.c */,
+				D635C4B41D56EAB6008984D9 /* inffast.h */,
+				D635C4B51D56EAB6008984D9 /* inffixed.h */,
+				D635C4B61D56EAB6008984D9 /* inflate.c */,
+				D635C4B71D56EAB6008984D9 /* inflate.h */,
+				D635C4B81D56EAB6008984D9 /* inftrees.c */,
+				D635C4B91D56EAB6008984D9 /* inftrees.h */,
+				D635C4BA1D56EAB6008984D9 /* trees.c */,
+				D635C4BB1D56EAB6008984D9 /* trees.h */,
+				D635C4BC1D56EAB6008984D9 /* uncompr.c */,
+				D635C4BD1D56EAB6008984D9 /* zconf.h */,
+				D635C4BE1D56EAB6008984D9 /* zlib.h */,
+				D635C4BF1D56EAB6008984D9 /* zutil.c */,
+				D635C4C01D56EAB6008984D9 /* zutil.h */,
+			);
+			path = zlib;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1884,6 +1959,7 @@
 				D635C3891D56E330008984D9 /* NstBoardBtlSmb3.cpp in Sources */,
 				D635C4331D56E330008984D9 /* NstPatcherIps.cpp in Sources */,
 				D635C3D41D56E330008984D9 /* NstBoardSachenTca01.cpp in Sources */,
+				D635C4C61D56EAB6008984D9 /* gzlib.c in Sources */,
 				D635C3E61D56E330008984D9 /* NstBoardTengen.cpp in Sources */,
 				D635C3B81D56E330008984D9 /* NstBoardKonamiVsSystem.cpp in Sources */,
 				D635C3BE1D56E330008984D9 /* NstBoardMmc5.cpp in Sources */,
@@ -1901,6 +1977,7 @@
 				D635C3A31D56E330008984D9 /* NstBoardIremH3001.cpp in Sources */,
 				D635C4341D56E330008984D9 /* NstPatcherUps.cpp in Sources */,
 				D635C35F1D56E330008984D9 /* NstBoardBmc8157.cpp in Sources */,
+				D635C4C41D56EAB6008984D9 /* deflate.c in Sources */,
 				D635C44B1D56E330008984D9 /* NstVideoFilterNtscCfg.cpp in Sources */,
 				D635C33D1D56E330008984D9 /* NstApiRewinder.cpp in Sources */,
 				D635C3641D56E330008984D9 /* NstBoardBmcCtc65.cpp in Sources */,
@@ -1951,6 +2028,7 @@
 				D635C3E41D56E330008984D9 /* NstBoardTaitoX1005.cpp in Sources */,
 				D635C3601D56E330008984D9 /* NstBoardBmc9999999in1.cpp in Sources */,
 				D635C39F1D56E330008984D9 /* NstBoardHenggedianzi.cpp in Sources */,
+				D635C4CC1D56EAB6008984D9 /* inftrees.c in Sources */,
 				D635C40C1D56E330008984D9 /* NstInpFamilyTrainer.cpp in Sources */,
 				D635C34D1D56E330008984D9 /* NstBoardBandaiLz93d50.cpp in Sources */,
 				D635C4151D56E330008984D9 /* NstInpPartyTap.cpp in Sources */,
@@ -2013,6 +2091,7 @@
 				D635C36A1D56E330008984D9 /* NstBoardBmcGoldenCard6in1.cpp in Sources */,
 				D635C3FA1D56E330008984D9 /* NstBoardWaixing.cpp in Sources */,
 				D635C4071D56E330008984D9 /* NstInpBarcodeWorld.cpp in Sources */,
+				D635C4C11D56EAB6008984D9 /* adler32.c in Sources */,
 				D635C3FC1D56E330008984D9 /* NstBoardWaixingPs2.cpp in Sources */,
 				D635C42F1D56E330008984D9 /* NstMachine.cpp in Sources */,
 				D635C3731D56E330008984D9 /* NstBoardBmcSuper40in1.cpp in Sources */,
@@ -2054,11 +2133,13 @@
 				D635C4391D56E330008984D9 /* NstSha1.cpp in Sources */,
 				D635C3DF1D56E330008984D9 /* NstBoardSuperGameBoogerman.cpp in Sources */,
 				D635C40F1D56E330008984D9 /* NstInpMahjong.cpp in Sources */,
+				D635C4CB1D56EAB6008984D9 /* inflate.c in Sources */,
 				D635C41F1D56E330008984D9 /* NstAssert.cpp in Sources */,
 				D635C3371D56E330008984D9 /* NstApiEmulator.cpp in Sources */,
 				D635C38C1D56E330008984D9 /* NstBoardBtlTobidaseDaisakusen.cpp in Sources */,
 				D635C44F1D56E330008984D9 /* NstVideoScreen.cpp in Sources */,
 				D635C44D1D56E330008984D9 /* NstVideoFilterxBR.cpp in Sources */,
+				D635C4C81D56EAB6008984D9 /* gzwrite.c in Sources */,
 				D635C3691D56E330008984D9 /* NstBoardBmcGolden190in1.cpp in Sources */,
 				D635C3FF1D56E330008984D9 /* NstBoardWaixingSgzlz.cpp in Sources */,
 				D635C3B61D56E330008984D9 /* NstBoardKonamiVrc6.cpp in Sources */,
@@ -2066,6 +2147,7 @@
 				D635C39E1D56E330008984D9 /* NstBoardGxRom.cpp in Sources */,
 				D635C3F91D56E330008984D9 /* NstBoardVsSystem.cpp in Sources */,
 				D635C35E1D56E330008984D9 /* NstBoardBmc800in1.cpp in Sources */,
+				D635C4C31D56EAB6008984D9 /* crc32.c in Sources */,
 				D635C4251D56E330008984D9 /* NstChecksum.cpp in Sources */,
 				D635C43F1D56E330008984D9 /* NstStream.cpp in Sources */,
 				D635C3411D56E330008984D9 /* NstApiVideo.cpp in Sources */,
@@ -2080,16 +2162,20 @@
 				D635C3F11D56E330008984D9 /* NstBoardUnlKingOfFighters97.cpp in Sources */,
 				D635C43C1D56E330008984D9 /* NstSoundRenderer.cpp in Sources */,
 				D635C42A1D56E330008984D9 /* NstFds.cpp in Sources */,
+				D635C4C51D56EAB6008984D9 /* gzclose.c in Sources */,
 				D635C3481D56E330008984D9 /* NstBoardAxRom.cpp in Sources */,
 				D635C3CF1D56E330008984D9 /* NstBoardSachenSa0036.cpp in Sources */,
 				D635C3B91D56E330008984D9 /* NstBoardMagicSeries.cpp in Sources */,
 				D635C3D81D56E330008984D9 /* NstBoardSunsoft1.cpp in Sources */,
+				D635C4C21D56EAB6008984D9 /* compress.c in Sources */,
+				D635C4CE1D56EAB6008984D9 /* uncompr.c in Sources */,
 				D635C4531D56E330008984D9 /* NstVsSuperXevious.cpp in Sources */,
 				D635C4101D56E330008984D9 /* NstInpMouse.cpp in Sources */,
 				D635C33B1D56E330008984D9 /* NstApiMovie.cpp in Sources */,
 				D635C3C51D56E330008984D9 /* NstBoardNitra.cpp in Sources */,
 				D635C3681D56E330008984D9 /* NstBoardBmcGamestarB.cpp in Sources */,
 				D635C4401D56E330008984D9 /* NstTracker.cpp in Sources */,
+				D635C4CF1D56EAB6008984D9 /* zutil.c in Sources */,
 				D635C3881D56E330008984D9 /* NstBoardBtlSmb2c.cpp in Sources */,
 				D635C3D01D56E330008984D9 /* NstBoardSachenSa0037.cpp in Sources */,
 				D635C3E01D56E330008984D9 /* NstBoardSuperGameLionKing.cpp in Sources */,
@@ -2104,8 +2190,10 @@
 				D635C3E71D56E330008984D9 /* NstBoardTengenRambo1.cpp in Sources */,
 				D635C3721D56E330008984D9 /* NstBoardBmcSuper24in1.cpp in Sources */,
 				D635C3A61D56E330008984D9 /* NstBoardIremLrog017.cpp in Sources */,
+				D635C4C71D56EAB6008984D9 /* gzread.c in Sources */,
 				D635C4131D56E330008984D9 /* NstInpPad.cpp in Sources */,
 				D635C37E1D56E330008984D9 /* NstBoardBtl2708.cpp in Sources */,
+				D635C4C91D56EAB6008984D9 /* infback.c in Sources */,
 				D635C3651D56E330008984D9 /* NstBoardBmcFamily4646B.cpp in Sources */,
 				D635C4511D56E330008984D9 /* NstZlib.cpp in Sources */,
 				D635C3A21D56E330008984D9 /* NstBoardIremG101.cpp in Sources */,
@@ -2127,6 +2215,7 @@
 				D635C3B21D56E330008984D9 /* NstBoardKonamiVrc1.cpp in Sources */,
 				D635C3AC1D56E330008984D9 /* NstBoardJalecoSs88006.cpp in Sources */,
 				D635C3D61D56E330008984D9 /* NstBoardSomeriTeamSl12.cpp in Sources */,
+				D635C4CA1D56EAB6008984D9 /* inffast.c in Sources */,
 				D635C3F51D56E330008984D9 /* NstBoardUnlTf1201.cpp in Sources */,
 				D635C3CE1D56E330008984D9 /* NstBoardSachenS8259.cpp in Sources */,
 				D635C3A71D56E330008984D9 /* NstBoardJalecoJf11.cpp in Sources */,
@@ -2137,6 +2226,7 @@
 				D635C3D31D56E330008984D9 /* NstBoardSachenStreetHeroes.cpp in Sources */,
 				D635C38F1D56E330008984D9 /* NstBoardCamerica.cpp in Sources */,
 				D635C4061D56E330008984D9 /* NstInpBandaiHyperShot.cpp in Sources */,
+				D635C4CD1D56EAB6008984D9 /* trees.c in Sources */,
 				D635C4581D56E330008984D9 /* demo.c in Sources */,
 				D635C3F81D56E330008984D9 /* NstBoardUxRom.cpp in Sources */,
 				D635C4181D56E330008984D9 /* NstInpPowerPad.cpp in Sources */,
