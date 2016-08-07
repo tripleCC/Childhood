@@ -6,5 +6,6 @@ target 'Childhood' do
 	pod 'SDWebImage'
 	pod 'UMengAnalytics-NO-IDFA'
 	pod 'ReactiveCocoa'
+	pod 'MonkeyKing'
 end
 use_frameworks!
