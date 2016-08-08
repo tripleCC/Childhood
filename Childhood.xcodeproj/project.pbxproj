@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D635B9541D56C67F008984D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D635B9531D56C67F008984D9 /* main.m */; };
 		D635B9571D56C67F008984D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D635B9561D56C67F008984D9 /* AppDelegate.m */; };
-		D635B95A1D56C67F008984D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D635B9591D56C67F008984D9 /* ViewController.m */; };
 		D635B95F1D56C67F008984D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D635B95E1D56C67F008984D9 /* Assets.xcassets */; };
 		D635B9621D56C67F008984D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D635B9601D56C67F008984D9 /* LaunchScreen.storyboard */; };
 		D635C3331D56E330008984D9 /* NstApiBarcodeReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D635C0B91D56E32E008984D9 /* NstApiBarcodeReader.cpp */; };
@@ -329,6 +328,7 @@
 		D635C4CD1D56EAB6008984D9 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4BA1D56EAB6008984D9 /* trees.c */; };
 		D635C4CE1D56EAB6008984D9 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4BC1D56EAB6008984D9 /* uncompr.c */; };
 		D635C4CF1D56EAB6008984D9 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = D635C4BF1D56EAB6008984D9 /* zutil.c */; };
+		D635C4D31D5772DA008984D9 /* NestopiaCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = D635C4D21D5772DA008984D9 /* NestopiaCore.mm */; };
 		F04B889266E945908C46B776 /* Pods_Childhood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FCA80CAADAE16BE6591A4F /* Pods_Childhood.framework */; };
 /* End PBXBuildFile section */
 
@@ -339,8 +339,6 @@
 		D635B9531D56C67F008984D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D635B9551D56C67F008984D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D635B9561D56C67F008984D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D635B9581D56C67F008984D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D635B9591D56C67F008984D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D635B95E1D56C67F008984D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D635B9611D56C67F008984D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D635B9631D56C67F008984D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -999,6 +997,9 @@
 		D635C4BE1D56EAB6008984D9 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
 		D635C4BF1D56EAB6008984D9 /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
 		D635C4C01D56EAB6008984D9 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
+		D635C4D01D5772DA008984D9 /* Nestopia_Callback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nestopia_Callback.h; sourceTree = "<group>"; };
+		D635C4D11D5772DA008984D9 /* NestopiaCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestopiaCore.h; sourceTree = "<group>"; };
+		D635C4D21D5772DA008984D9 /* NestopiaCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NestopiaCore.mm; sourceTree = "<group>"; };
 		D82D029375CB707F4AFEFEE6 /* Pods-Childhood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Childhood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Childhood/Pods-Childhood.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1052,11 +1053,9 @@
 		D635B9511D56C67F008984D9 /* Childhood */ = {
 			isa = PBXGroup;
 			children = (
-				D635C0B51D56E32E008984D9 /* Nestopia */,
 				D635B9551D56C67F008984D9 /* AppDelegate.h */,
 				D635B9561D56C67F008984D9 /* AppDelegate.m */,
-				D635B9581D56C67F008984D9 /* ViewController.h */,
-				D635B9591D56C67F008984D9 /* ViewController.m */,
+				D635C0B51D56E32E008984D9 /* Nestopia */,
 				D635B95E1D56C67F008984D9 /* Assets.xcassets */,
 				D635B9601D56C67F008984D9 /* LaunchScreen.storyboard */,
 				D635B9631D56C67F008984D9 /* Info.plist */,
@@ -1076,6 +1075,9 @@
 		D635C0B51D56E32E008984D9 /* Nestopia */ = {
 			isa = PBXGroup;
 			children = (
+				D635C4D01D5772DA008984D9 /* Nestopia_Callback.h */,
+				D635C4D11D5772DA008984D9 /* NestopiaCore.h */,
+				D635C4D21D5772DA008984D9 /* NestopiaCore.mm */,
 				D635C4A61D56EAB6008984D9 /* zlib */,
 				D635C0B61D56E32E008984D9 /* core */,
 				D635C3221D56E330008984D9 /* nes_ntsc */,
@@ -1950,7 +1952,6 @@
 				D635C3521D56E330008984D9 /* NstBoardBmc1200in1.cpp in Sources */,
 				D635C4021D56E330008984D9 /* NstBoardWhirlwind.cpp in Sources */,
 				D635C3741D56E330008984D9 /* NstBoardBmcSuper700in1.cpp in Sources */,
-				D635B95A1D56C67F008984D9 /* ViewController.m in Sources */,
 				D635C4221D56E330008984D9 /* NstCartridgeRomset.cpp in Sources */,
 				D635C33E1D56E330008984D9 /* NstApiSound.cpp in Sources */,
 				D635C3EA1D56E330008984D9 /* NstBoardTxcPoliceman.cpp in Sources */,
@@ -2227,6 +2228,7 @@
 				D635C38F1D56E330008984D9 /* NstBoardCamerica.cpp in Sources */,
 				D635C4061D56E330008984D9 /* NstInpBandaiHyperShot.cpp in Sources */,
 				D635C4CD1D56EAB6008984D9 /* trees.c in Sources */,
+				D635C4D31D5772DA008984D9 /* NestopiaCore.mm in Sources */,
 				D635C4581D56E330008984D9 /* demo.c in Sources */,
 				D635C3F81D56E330008984D9 /* NstBoardUxRom.cpp in Sources */,
 				D635C4181D56E330008984D9 /* NstInpPowerPad.cpp in Sources */,
@@ -2355,10 +2357,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
 				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Childhood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_CPLUSPLUSFLAGS = "-fast";
+				OTHER_CPLUSPLUSFLAGS = "-Wno-logical-op-parentheses";
 				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.triplec.Childhood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2372,10 +2381,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Childhood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_CPLUSPLUSFLAGS = "-fast";
+				OTHER_CPLUSPLUSFLAGS = "-Wno-logical-op-parentheses";
 				PRODUCT_BUNDLE_IDENTIFIER = com.triplec.Childhood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
